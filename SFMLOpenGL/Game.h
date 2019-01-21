@@ -7,6 +7,9 @@
 #include <Vector3.h>
 #include <Matrix3.h>
 
+#include "MyMatrix3.h"
+#include "MyVector3.h"
+
 using namespace std;
 using namespace sf;
 using namespace gpp;
@@ -24,6 +27,7 @@ private:
 	void update();
 	void render();
 	void unload();
+	void rotate();
 
 	Clock clock;
 	Time elapsed;
